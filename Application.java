@@ -30,6 +30,38 @@ public class Example {
         System.out.println("Name: " + name);
     }
 }
+#feature 202 changes by ethan for reports module
+public class Example {
+
+    // Define instance variables
+    private int number;
+    private String name;
+
+    // Define accessor (getter) methods
+    public int getNumber() {
+      return number; 
+    }
+
+    public String getName() {
+      return name; 
+    }
+
+    // Define mutator (setter) methods
+    public void setNumber(int number)
+    {
+        this.number = number;
+    }
+
+    public void setName(String name) { this.name = name; }
+
+    // Define other methods
+    public void printDetails()
+    {
+        System.out.println("Number: " + number);
+        System.out.println("Name: " + name);
+    }
+}
+=======
 # feature 201 changes by vivek for the service module in HDFC project in Oct 2023
 import java.io.*;
 
@@ -120,4 +152,4 @@ class GFG {
         System.out.println(no_of_objects);
     }
 }
-# close the method for feature 201
+# close the method for feature 202
