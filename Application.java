@@ -30,12 +30,12 @@ public class Example {
         System.out.println("Name: " + name);
     }
 }
-# feature 201 changes by vivek for the service module in HDFC project in oct 2023
+# feature 201 changes by vivek for the service module in HDFC project in Oct 2023
 import java.io.*;
 
 // Class 1
 // Helper class
-class Test {
+class Test O
 
     public static int i = 0;
 
